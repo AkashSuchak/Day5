@@ -40,22 +40,24 @@ namespace Day5
        
         static void Main(string[] args)
         {
-            /*Console.WriteLine("Enter Number You Want to Flip a Coin : ");
+            Console.WriteLine("Enter Number You Want to Flip a Coin : ");
             int numberOfTimesCoinsTossed = int.Parse(Console.ReadLine());
             double headsPercentage = FindPercentageOfHeads(numberOfTimesCoinsTossed);
             double tailsPercentage = FindPercentageOfTails(numberOfTimesCoinsTossed);
 
             Console.WriteLine("Heads Percentage : " + headsPercentage);
-            Console.WriteLine("Tails Percentage : " + tailsPercentage);*/
+            Console.WriteLine("Tails Percentage : " + tailsPercentage);
 
-            //Program2.leapYear();
-            //Program3.powerTable();
-            //Program6.Display();
-            //Program7.SwapNumbers();
-            //Program8.EvenOdd();
-            //Program9.Alphabet();
-            //Program10.LargestNumber();
-            Program4.HarmonicNumber();
+            Program2.leapYear();
+            Program3.powerTable();
+            Program4.HarmonicNumber();            
+            Program5.PrimeFactorization();
+            Program6.Display();
+            Program7.SwapNumbers();
+            Program8.EvenOdd();
+            Program9.Alphabet();
+            Program10.LargestNumber();
+
         }
     }
 }
